@@ -1,6 +1,6 @@
 spring:
-    hadoop:
-        fsUri: hdfs://10.211.55.3:9000
-    yarn:
-        appName: mammoth-yarn
-        applicationDir: /app/mammoth-yarn/
+  hadoop:
+    fsUri: hdfs://10.211.55.3:9000
+  yarn:
+    appName: mammoth-yarn
+    applicationDir: /app/mammoth-yarn/
