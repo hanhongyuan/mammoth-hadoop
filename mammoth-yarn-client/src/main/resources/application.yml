@@ -1,0 +1,14 @@
+spring:
+    hadoop:
+        fsUri: hdfs://10.211.55.3:9000
+        resourceManagerHost: 10.211.55.3
+        resourceManagerPort: 8032
+    yarn:
+        appName: mammoth-yarn
+        applicationDir: /app/mammoth-yarn/
+        client:
+            files:
+              - "file:mammoth-yarn-appmaster/target/mammoth-yarn-appmaster-1.0-SNAPSHOT.jar"
+              - "file:mammoth-yarn-container/target/mammoth-yarn-container-1.0-SNAPSHOT.jar"
+            launchcontext:
+                archiveFile: mammoth-yarn-appmaster-1.0-SNAPSHOT.jar
