@@ -20,6 +20,7 @@
         <module>mammoth-yarn-appmaster</module>
         <module>mammoth-yarn-container</module>
         <module>mammoth-hdfs</module>
+        <module>mammoth-hive</module>
     </modules>
 
     <properties>

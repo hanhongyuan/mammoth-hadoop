@@ -1,0 +1,8 @@
+server:
+  port: 8080
+hive:
+  url: jdbc:hive2://localhost:32796/default
+  driver-class-name: org.apache.hive.jdbc.HiveDriver
+  type: com.alibaba.druid.pool.DruidDataSource
+  username: hive
+  password: hive
