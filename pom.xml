@@ -21,6 +21,7 @@
         <module>mammoth-yarn-container</module>
         <module>mammoth-hdfs</module>
         <module>mammoth-hive</module>
+        <module>mammoth-spark</module>
     </modules>
 
     <properties>
